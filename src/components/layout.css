@@ -1,0 +1,24 @@
+body{
+  background-color: #f4f4f4;
+  margin: auto;
+}
+
+.page{
+  padding: 0px 0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+section{
+  margin: 0px auto;
+  padding: 14px 28px;
+  min-height: 100vh;
+}
+
+section:nth-of-type(2n+1){
+  background-color: #fafafa
+}
+section:nth-of-type(2n){
+  background-color: #e7e7e7
+}
+ 

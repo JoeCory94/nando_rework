@@ -1,7 +1,9 @@
 import React from "react"
-import Nav from './components/Nav';
+import Layout from "../components/layout";
+import Nav from '../components/Nav';
 
 const IndexPage = () => (
+  <Layout>
   <div class="page">
   <Nav />
   <div class="index-wrapper">
@@ -25,6 +27,7 @@ const IndexPage = () => (
   </section>
   </div>
   </div>
+  </Layout>
 )
 
 export default IndexPage
