@@ -11,7 +11,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div class="page">
     <Nav /> 
-    <div class="index-wrapper">
+    <div class="index-wrapper"> 
     <section>
     </section>
     <section>
